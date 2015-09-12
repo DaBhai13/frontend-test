@@ -75,3 +75,42 @@ header{
 .sub-heading{
     font-size: 1.5em;
 }
+
+/* Profile Styles */
+
+.section {
+    width: 100%;
+    padding: 3em 0;
+    background: #8a2b27;
+    overflow: hidden;
+}
+
+.alt-sec{
+    background: #222;
+}
+
+.profile-pic{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.bio{
+    color: #fff;
+    text-align: left;
+}
+
+.button{
+    padding: 10px 25px;
+    color: #fff;
+    border: 2px solid #222;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: .9em;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.button:hover{
+    background: #222;
+}
+
