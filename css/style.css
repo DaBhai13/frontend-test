@@ -92,6 +92,15 @@ header{
 .profile-pic{
     width: 180px;
     border-radius: 50%;
+    filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+    transition: filter .5s;
+	-webkit-transition: -webkit-filter .5s;
+}
+
+.profile-pic:hover{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
 }
 
 .bio{
