@@ -114,3 +114,17 @@ header{
     background: #222;
 }
 
+/* Quote Section */
+
+.quotes-container{
+    color: #fff;
+}
+
+.quotes-container img{
+    float: left;
+    margin-right: 5px
+}
+
+.name{
+    font-size: 1.1em
+}
