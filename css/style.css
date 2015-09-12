@@ -5,6 +5,7 @@ body{
 	padding: 0;
 	font-size: 16px;
 	line-height: 1.4;
+    color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -60,7 +61,6 @@ header{
     text-align: center;
     margin: 60px auto;
     padding: 0 .75em;
-    color: #fff;
 }
 
 .heading{
@@ -104,13 +104,11 @@ header{
 }
 
 .bio{
-    color: #fff;
     text-align: left;
 }
 
 .button{
     padding: 10px 25px;
-    color: #fff;
     border: 2px solid #222;
     border-radius: 50px;
     display: inline-block;
