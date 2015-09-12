@@ -128,3 +128,23 @@ header{
 .name{
     font-size: 1.1em
 }
+
+/* Footer Section */
+
+footer{
+    padding: 1em;
+    background: #0f0f0f;
+}
+
+.copyright{
+    font-size: .9em;
+    color: #373233;
+    cursor: pointer;
+    -webkit-transition: all .6s ease-out;
+    transition: all .6s ease-out;
+}
+
+.copyright:hover{
+    color: #fff;
+}
+
