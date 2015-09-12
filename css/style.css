@@ -44,3 +44,35 @@ a{
 .col-2-3{
     width: 66%;
 }
+
+/* Header Styles */
+
+header{
+    width: 100%;
+    min-height: 20em;
+    overflow: hidden;
+    background: url(../img/detroit_night_skyline.jpg) 20% center no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    max-width: 50em;
+    text-align: center;
+    margin: 60px auto;
+    padding: 0 .75em;
+    color: #fff;
+}
+
+.heading{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-heading{
+    font-size: 3em;
+}
+
+.sub-heading{
+    font-size: 1.5em;
+}
